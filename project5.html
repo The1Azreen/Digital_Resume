@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Muhammad Azreen Bin Muhammad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/theme-switcher.css">
+    </head>
+    <body>
+        <div id="container--main">
+            <a href="index.html">&#x2190; Go Back</a>
+            <h1>Visualization of Choropleth Map of Resident Population Density in Singapore</h1>
+
+            <ul>
+                <li><a href="https://github.com/The1Azreen/Visualization-of-Choropleth-Map-of-Resident-Population-Density-in-Singapore-Archived-">Source code</a></li>
+            </ul>
+
+            <p>This project visualizes the resident population density of Singapore using a choropleth map. The interactive map allows users to explore population data filtered by time (year) and age group. The goal is to provide insights into demographic changes and urban development across different regions.</p>
+            
+
+            <ul>
+                <li>Interactive Shiny App: Users can explore population data by planning area, year, and age group.</li>
+                <li>Geospatial Mapping: The map integrates geospatial data (KML) with population data to display the density across Singapore's planning areas.</li>
+                <li>Hover Information: Users can hover over specific planning areas to get real-time population statistics.</li>
+                <li>Population Data: Obtained from the Singapore Department of Statistics. The dataset includes population counts by age group and planning area from 2000 to 2023.</li>
+                <li>Geospatial Data: Planning area boundaries were sourced from the Urban Redevelopment Authority (URA)'s 2019 Master Plan in KML format.</li>
+            </ul>
+        </div>
+
+        <div id="theme-switcher">
+            <div class="theme" id="theme-light" data-theme="light"></div>
+            <div class="theme" id="theme-dark" data-theme="dark"></div>
+        </div>
+    </body>
+    <script src="js/theme-switcher.js"></script>
+</html>
